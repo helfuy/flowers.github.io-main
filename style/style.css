@@ -1,0 +1,162 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-color: #e2e1e1;
+  max-width: 1600px;
+  margin: auto;
+}
+
+.wrap {
+  max-width: 100%;
+}
+
+.menu {
+  display: flex;
+  font-size: 22px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+}
+
+.number p{
+  font-weight: 900;
+}
+.nav a {
+  color:black;
+  padding-right: 20px;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+}
+
+.btn {
+  color: rgb(0, 0, 0);
+  background-color: rgb(167, 167, 167);
+  border: 1.5px solid black;
+  padding: 10px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0px 2px 8px 0px rgb(150, 150, 150);
+  transition: all .3s linear;
+}
+
+.first {
+  margin-left: 25px;
+}
+
+.second {
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 10px 15px !important;
+}
+
+.btn:hover {
+  transform: scale3d(1.05, 1.05, 1.05);
+  box-shadow: 0px 2px 12px 3px rgb(49, 49, 49);
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 20px;
+}
+
+.main_info h1::after {
+  content: ""; /* Пустое содержимое для псевдоэлемента */
+  display: block; /* Это важно для полоски */
+  width: auto; /* Ширина полоски */
+  height: 13px; /* Высота полоски */
+  background-color: #a8a8a8; /* Цвет полоски */
+  margin:auto 0; /* Отступы: сверху - 10px, снизу - 0, централизуем */
+}
+
+.main img {
+  width: 700px;
+  transform: rotate(-30deg);
+  filter: drop-shadow(0px 6px 45px gray);
+  margin-top: 70p;
+}
+
+.info{
+  flex-wrap: nowrap;
+  
+}
+
+.info p{
+  text-align: center;
+  font-size: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.info img{
+  width: 250px;
+  height: 250px;
+  border: 5px solid black;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main p {
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  gap: 20px;
+  
+}
+ .wrap_proposal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  }
+  
+  .vertical {
+  position: absolute;
+  border-left: 10px solid black ;
+  height: 100%;
+  }
+  
+  .one, .two, .three, .four, .five, .six{
+    display: flex;
+  }
+  
+  .info-first p, .info-second p{
+    font-size: 20px;
+    text-align: center;
+    justify-content: space-between;
+  }
+  
+  .info-first, .info-second{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .info-first img, .info-second img{
+    height: 250px;
+    width: 250px;
+    border: 5px solid black;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
